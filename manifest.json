@@ -1,8 +1,9 @@
 {
-  "name": "โพยหวย",
+  "name": "กรอกโพยหวย",
   "short_name": "โพยหวย",
   "description": "แอปกรอกโพยหวย",
-  "start_url": "./lotto_slip_pwa.html",
+  "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#f0fdf4",
   "theme_color": "#16a34a",
@@ -10,13 +11,13 @@
   "lang": "th",
   "icons": [
     {
-      "src": "icon-192.png",
+      "src": "./icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "icon-512.png",
+      "src": "./icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
